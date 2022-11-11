@@ -9,6 +9,7 @@ attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1659291887007/wo
 backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
 backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
 blinker==1.4
+gunicorn==19.9.0 
 brotlipy @ file:///Users/runner/miniforge3/conda-bld/brotlipy_1648854242877/work
 cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
 cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1660055382950/work
