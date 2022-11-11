@@ -19,24 +19,18 @@ app=Flask(__name__)
 
 
 # Model saved with Keras model.save()
-MODEL_PATH = '/Users/vansh/Desktop/Project 3/LungCancerDetection.h5'
+MODEL_PATH = 'LungCancerDetection.h5'
 
-# Load your trained model
+
 model =tf.keras.models.load_model('/Users/vansh/Desktop/Project 3/LungCancerDetection.h5')
 
-# print('Model loaded. Start serving...')
 
-# You can also use pretrained model from Keras
-# Check https://keras.io/applications/
-#from keras.applications.resnet50 import ResNet50
-#model = ResNet50(weights='imagenet')
-#model.save('')
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 
 def model_predict(path, new_model):
    
-    new_model = tf.keras.models.load_model('/Users/vansh/Desktop/Project 3/LungCancerDetection.h5')
+    new_model = tf.keras.models.load_model('LungCancerDetection.h5')
 
 
     a  = cv2.imread(path,cv2.IMREAD_GRAYSCALE)
